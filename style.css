@@ -474,13 +474,6 @@ footer a{
  
   }
 
-  /*I tried to fix the background img in mobil version
-  main, #mainScania, #mainAmf, #mainClimateView{
-    background-size: 100%;
-    background-color: #000000;
-    background-attachment: fixed;
-  }*/
-
   section{
     padding: 20px;
   }
