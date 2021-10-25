@@ -490,6 +490,9 @@ footer a{
     width: 100%;
     }
 
+    .boarderIndex{
+    display: inline-block; 
+  }
 
   /* picture in browser - amf */
   #mobilPic{
