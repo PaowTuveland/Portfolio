@@ -478,6 +478,7 @@ footer a{
   main, #mainScania, #mainAmf, #mainClimateView{
     background-size: 100%;
     background-color: #000000;
+    background-image: top;
   }
 
   section{
