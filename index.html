@@ -5,82 +5,149 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UX Designer portfolio of Paulina Tuveland</title>
-
-
-
-<link href="main.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="img/woman.png">
+<link href="style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+<link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
 </head>
-<body>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <a id="homeLinkMobile" class="fa fa-home" href="index.html"></a> <!--Only in mobil version-->
+          <a href="#work">Arbeten</a>
+          <a href="CV -Paulina Tuveland - UX.pdf" target=”_blank” >CV</a>
+          <a id="homeLink" href="#">PT</a>
+          <a href="#about">Om Paulina</a>
+          <a class="learnMore" id="navButton" href="#contact">Kontakt</a>
+        </nav>
+          <!--light vs night button-->
+          <div id="darkModeBox">
+            <span>Ändra färgtema</span>
+            <label class="switch">
+              <input id="darkMode" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            </div>
+      </header>
 
-    <header>
-      <a href="index.html">P a u l i n a  T u v e l a n d</a>
+      <main>
+        <section>
+          <h1>Varmt Välkommen<br/>
+          till Paulina Tuveland´s UX portfolio</h1>
+        </section>
 
-      <!-- Lista -->
-   <nav>
-     <ul class="nav_links">
-      
-      <li><a href="Work.html">Work</a></li>
-      <!-- Länk utanför webbsidan - till pdf fil -->
-      <li><a href="CV -Paulina Tuveland - UX.pdf">Resume</a></li>
-      <li><a href="About.html">About</a></li>
+        <section class="green">
+          <h2 class="blackText">Design thinking</h2>
+          <p class="blackText">En designmetodik som löser komplexa problem på ett användarcentrerat sätt</p>
         
-   </ul>
-    </nav>
-    <a class="cta" href="Contact.html"><button>Contact</button></a>
+        <section class="greenIndex">
+          <section class="boarderIndex">
+            <img class="phases" src="img/Empathi.png" alt="Empathi phase">
+            <h3 class="blackText">Empati</h3>
+            <p class="blackText">Förstå användaren</p>
 
-    </header>
+          </section>
+          
+            <section class="boarderIndex">
+              <img class="phases" src="img/Define.png" alt="Define phase">
+              <h3 class="blackText">Definera</h3>
+              <p class="blackText">Problemformulering</p>
+          </section>
+          
+            <section class="boarderIndex">
+              <img class="phases" src="img/Ideate.png" alt="Ideate phase">
+              <h3 class="blackText">Idégenerera</h3>
+              <p class="blackText">Brainstorm</p>
+          </section>
 
-    <!-- Bild -->
-      <aside>
-          <img src="Me in portfolio.jpg" id="profilPic" alt="ProfilPic">
-      </aside>
-    
+          <section class="boarderIndex">
+            <img class="phasesIndex" src="img/Prototype.png" alt="Prototyp phase">
+           
+            <h3 class="blackText">Prototyp</h2>
+            <p class="blackText">Design & Wireframes</p>
+        </section>
 
-<!-- Använder headers och paragrafer -->
-    <section class="welcome">
-    <h2>Welcome</h2><br>
-    <p>The portfolio of</p>
-    <h1>Paulina Tuveland</h1>
-    <p> Ux reseacher and designer </p>
-   </section>
-
-  
-  
-<section class="LIA">
-  
-    <h3>Lärande i arbete</h3>
-    <p> (DATUM) går jag ut på praktik. (DATUM) är jag redo för anställning! Behöver ni blah blah? </p>
-    <!-- Länk utanför webbsidan -->
-    <a href="https://www.linkedin.com/in/paulina-tuveland-68ab6b138/" title="Linkedin" target=”_blank”> <span class="fa fa-linkedin"></span> </a><br>
-
-<br>
-<br>
-
+        <section class="boarderIndex">
+          <img class="phasesIndex" src="img/Test.png" alt="Test phase">
+         
+          <h3 class="blackText">Test</h2>
+          <p class="blackText">Användningstester</p>
+      </section>
+      </section>
     </section>
 
-<!-- Tabel -->
-<section class="boxtable">
 
-    <h4>Accomplishment</h4>
-<table>
-  <tr>
-    <th>Lectures</th>
-    <th>Workshops</th>
-    <th>Coached groups</th>
-  </tr>
-  <tr>
-    <td>1 st</td>
-    <td>3 st</td>
-    <td>3-4 grr/v</td>
-  </tr>
-  </table>
+        <section class="dark" id="work">
+          <section class="row">
+            <h2>Scania</h2> 
+            <p>Hållbarhet utforskas inom transportindustrin.<br/>
+             Kvantitativ och kvalitativ reaserch utförs, en plan för hur arbetet ska tas vidare görs.<br/></p>
+             <a class="learnMore" href="scania.html">Läs mer</a>
+          </section>
 
-</section>
+          <section class="row">
+            <img id="sustainabilityPic" src="img/img-scania-portfolio.jpg" alt="Road and forest Picture" title="Scania">
+          </section>
+        </section>
 
+        <section class="light"> 
+          <section class="row">
+            <img id="mobilPic" src="img/img-amf-mobil.jpg" alt="Mobil Mocup Amf" title="Amf">
+          </section>
 
-</body> 
+          <section class="row">
+            <h2>AMF</h2> 
+            <p>Kvantitativ & kvalitativ research ger matnyttiga insikter och rekommendationer tas fram.</p>
+            <a class="learnMore" href="amf.html">Läs mer</a>
+          </section>
+          <!--class="mobilPicMobil" only in mobil version-->
+          <img class="mobilPicMobil" src="img/img-amf-mobil.jpg" alt="Mobil Mocup Amf" title="Amf">
+        </section> 
+
+      <section a class="dark"> 
+          <section class="row">
+            <h2>Climate View</h2> 
+            <p>Undersökning av målgrupper. I processen görs en stor insats av researchfasen i form av kvalitativ metod. Frågan lyder "Hur kan vi visualisera klimatdata till den generella publiken på ett förståeligt sätt?"</p>
+            <a class="learnMore" href="climateview.html">Läs mer</a>
+          </section>
+
+          <section class="row">
+            <img class="climateButterfly" src="img/img-climateButterflyPos.jpg" alt="Mocup of Climate Butterfly" title="Climate Butterfly">
+            <img class="climateButterfly" src="img/img-climateButterflyNeg.jpg" alt="Mocup of Climate Butterfly" title="Climate Butterfly">
+          </section>
+        </section> 
+
+        <section id="about"> 
+          <img id="profilPic" src="img/img-profilPic.jpg" alt="Profil picture of Paulina" title="profil picture">
+            <p class="dottedBoarder">Paulina har coachat människor sedan 2016. <br/><br/>
+              Hon har en stor passion för psykologi och neurovetenskap vilket hon också läst på universitetet. 
+              Nu utbildar hon sig till UX designer och ska göra sin LIA “lärande i arbete” under veckorna 7-17 våren 2022. 
+              Hon är färdigexaminerad och anställningsbar sommaren 2022.<br/><br/>
+              Behöver ni tillskott i ert UX team? <br/>
+              Är behovet hos användarna viktigt för er?<br/>
+              Då kommer Paulina vara ett givande tillskott i ert team. 
+              Ett plus i kanten är att hon är lyhörd, lösningsorienterad och bjuder på glädje.</p>
+        </section> 
+        <section>
+          <!--Only in mobil version-->
+          <a class="learnMore" id="toTopMobil" href="#">Till toppen</a>
+        </section>
+      </main>
+
+      <footer id="contact">
+        <h2>Kontakt</h2>
+        <a href="https://www.linkedin.com/in/paulina-tuveland-68ab6b138/" title="linkedin" target=”_blank”> <i class="fa fa-linkedin-square"></i> </a>
+          <p>
+            Tel<br/>
+            073 -838 04 76<br/><br/>
+            Mail<br/>
+            Paulina.tuveland@hotmail.com<br/><br/>
+            Adress<br/>
+            Tranebergsvägen 94<br/> 167 44 Bromma
+          </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
