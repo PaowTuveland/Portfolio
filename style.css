@@ -478,37 +478,13 @@ footer a{
     padding: 20px;
   }
 
-  main {
-    background: url(img/img-berg.jpg);
-    background-size:contain;
-    background-position: center;
+  main, #mainScania, #mainAmf, #mainClimateView {
+    display: block;
+    position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  #mainScania{
-    background: url(img/img-scania-sustainability.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  #mainAmf{
-    background: url(img/img-pension.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  #mainClimateView{
-    background: url(img/img-climate.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+    width: 100%;
   }
 
 
