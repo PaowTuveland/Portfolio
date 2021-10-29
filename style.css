@@ -478,13 +478,9 @@ footer a{
     padding: 20px;
   }
 
+  /*Bg-img dosent get 100%*/
   main, #mainScania, #mainAmf, #mainClimateView {
-    display: block;
-    position: relative;
-    background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-    width: 100%;
+    background-image: 100%;
   }
 
 
