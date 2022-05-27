@@ -206,7 +206,7 @@ input:checked + .slider:before {
 }
 
 main{
-  background-image: url("img/img-berg.jpg");
+  background-image: url("img/NB.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,6 +223,10 @@ main{
 
 #mainClimateView{
 background-image: url("img/img-climate.jpg");
+}
+
+#maininsurance{
+  background-image: url("img/NB.jpg");
 }
 
 section{
@@ -281,6 +285,15 @@ section.darkOtherPage{
   section.greenOtherPage{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  /*insurance 5 rows*/
+  section.greenOtherPagee{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2%;
     align-items: center;
     background-color: rgba(0,0,0,0.6);
@@ -374,6 +387,16 @@ background-color: rgba(0,0,0,0.6);
   align-items: center;
 }
 
+
+/*försäkringbolag bilder*/
+.insurance{
+  height: 300px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 12px;
+}
+
+
 .img-box{
   width: 100%;
   border: 1px solid black;
@@ -403,6 +426,7 @@ background-color: rgba(0,0,0,0.6);
   align-items: center;
   margin: 16px;
 }
+
 
 .img-box2{
   width: 35%;
@@ -484,7 +508,7 @@ footer a{
   }
 
 
-  section.dark, section.light, section.row, section.darkOtherPage, #gallery, #gallery2, section.greenOtherPage, section.greenIndex, section.green, section.boxx, .dottedBoarder {
+  section.dark, section.light, section.row, section.darkOtherPage, #gallery, #gallery2, section.greenOtherPage, section.greenIndex, section.green, section.boxx, .dottedBoarder, section.greenOtherPagee {
     box-sizing: border-box;
     display: block;
     width: 100%;
