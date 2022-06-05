@@ -508,7 +508,7 @@ footer a{
   }
 
 
-  section.dark, section.light, section.row, section.darkOtherPage, #gallery, #gallery2, section.greenOtherPage, section.greenIndex, section.green, section.boxx, .dottedBoarder, .greenOtherPagee {
+  section.dark, section.light, section.row, section.darkOtherPage, #gallery, #gallery2, section.greenOtherPage, section.greenIndex, section.green, section.boxx, .dottedBoarder, section.greenOtherPagee {
     box-sizing: border-box;
     display: block;
     width: 100%;
